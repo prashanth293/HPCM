@@ -1,0 +1,224 @@
+body {
+    background: url(../assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+
+@font-face {
+    font-family: hLight;
+    src: url(../assets/fonts/HelveticaLTStd-Light.otf);
+}
+
+/* this font is Helvetica Neue-UltraLight*/
+
+@font-face {
+    font-family: hBold;
+    src: url(../assets/fonts/HelveticaLTStd-BoldCond.otf);
+}
+
+/* this font is Helvetica Neue-Regular*/
+
+@font-face {
+    font-family: hThin;
+    src: url(../assets/fonts/HelveticaNeueLTStd-Th.otf);
+}
+
+/* this font is Helvetica Neue-Thin*/
+
+@font-face {
+    font-family: hRegular;
+    src: url(../assets/fonts/HelveticaNeueThin.ttf);
+}
+
+h4,
+h5,
+h6 {
+    font-family: hBold;
+}
+
+a {
+    font-family: hThin;
+}
+
+.button-color {
+    background: #0071dc;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: hRegular;
+    font-weight: 600;
+}
+
+.button-color:hover {
+    background: #0059ad;
+}
+
+.grow {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#my-bar {
+    background-color: #67e467;
+}
+
+.link-color {
+    color: #0059ad !important;
+}
+
+a:hover {
+    color: #0059ad;
+}
+
+.flex-container.modal {
+    background: #cfccccb3;
+}
+
+.modal-wrapper {
+    background-color: #f7f8f9;
+}
+
+.errorMsg {
+    color: #ff0000;
+}
+
+.header-color {
+    border-bottom: 1px solid#c7c6c6;
+    background-color: #a0afbf
+}
+
+.hover-effect {
+    background: #e6ebf1;
+}
+
+.hover-effect:before {
+    background: #c3dbf3;
+}
+
+.card-link {
+    color: #000000;
+}
+
+.card.list-group-item.disabled,
+.card.list-group-item:disabled {
+    color: #6c757d;
+    opacity: 0.7;
+    background-color: #ececdf80;
+}
+
+.link-default-color {
+    color: #000000;
+}
+
+.link-default-color:hover {
+    color: #0059ad;
+}
+
+.loader-wrapper {
+    background: #000;
+}
+
+.loader {
+    border: 5px solid #c7c6c6;
+    border-top: 5px solid #3498db;
+}
+
+.header-title {
+    font-size: 22px;
+}
+
+.table-text {
+    font-size: 13px;
+}
+
+.panel-text {
+    font-size: 19px;
+}
+
+.message-text {
+    font-size: 15px;
+}
+
+.table-header-color {
+    background: linear-gradient(to bottom, #c3dbf3, #83b5d2);
+}
+
+.table-color {
+    background-color: #e2e9ec;
+}
+
+.boundary-line {
+    border: 1px solid #c7c6c6;
+}
+
+.dropdown-content {
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px #4e4d4d;
+}
+
+.dropdown-content a {
+    color: #000000;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.search-wrap-color {
+    background-color: #ffffff;
+    border: 1px solid #8e8b8b;
+    border-radius: 2px;
+}
+
+.icon-color {
+    color: #8e8b8b;
+}
+
+.icon:hover {
+    color: #0059ad;
+}
+
+.sidenav {
+    background: #f7f8f9;
+}
+
+.fileErrorMsg {
+    font-size: 14px;
+    color: #ff0000;
+}
+
+.new-nominee-link {
+    font-size: 18px;
+}
+
+.nominee-header {
+    font-size: 16px;
+}
+
+.mat-icon-color {
+    color: #5f5c5c;
+}
+
+.mat-icon-color:hover {
+    color: #0059ad;
+}
+
+.grow {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.bgrow {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.attach-label {
+    background: #ececdf80;
+}
+
+@media ( min-width: 768px) {
+    .login-form-wrapper {
+        background: #ffffff
+    }
+    .side-border {
+        border-right: 1px solid #c7c6c6;
+    }
+}

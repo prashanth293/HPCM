@@ -1,0 +1,111 @@
+/* global css*/
+
+.react-container {
+    padding-bottom: 50px;
+    position: absolute;
+}
+
+.container-fluid {
+    overflow-x: hidden;
+    min-height: calc(100vh - 50px);
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.loader-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.pointer {
+    cursor: pointer;
+}
+.loader {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-width {
+    width: 100px;
+}
+
+.grow {
+    display: inline-block;
+    transition-duration: .3s;
+    transition-property: transform;
+    transform: translateZ(0);
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.bgrow {
+    display: inline-block;
+    transition-duration: .3s;
+    transition-property: transform;
+    transform: translateZ(0);
+}
+
+.bgrow:hover {
+    transform: scale(1.03);
+}
+
+.hover-effect {
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.hover-effect:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform .3s ease-out;
+}
+
+.hover-effect:hover:before {
+    transform: scaleX(1);
+}
+
+.footer-margin {
+    margin-bottom: 30px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media ( min-width: 420px) {
+    .panel-text {
+        font-size: 20px;
+    }
+}

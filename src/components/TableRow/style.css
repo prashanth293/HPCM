@@ -1,0 +1,52 @@
+.side-border {
+    word-wrap: break-word;
+    align-self: auto;
+}
+
+.searchbar-margin {
+    margin-top: 40px;
+}
+
+.style {
+    background: #c5cbd0;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.table-color {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.form-row {
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.text-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .top-border {
+        border-top: none;
+    }
+    .text-style {
+        text-align: -webkit-center;
+        padding: 15px 0 15px 0;
+    }
+    .edit-style {
+        justify-content: center;
+    }
+}

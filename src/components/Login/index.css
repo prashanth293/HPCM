@@ -1,0 +1,57 @@
+#logo {
+    width: 70%;
+    margin: 14px auto;
+}
+
+#loginForm {
+    margin: 29px 5px 3px 5px;
+}
+
+#forgotPswd {
+    text-decoration: none;
+}
+
+#errMsg {
+    height: 30px;
+}
+
+.flex-container-page {
+    display: flex;
+    align-items: center;
+    padding-top: 50px
+}
+
+.flex-container-form {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.login-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type=checkbox] {
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.login-btn {
+    letter-spacing: 1.6px;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media ( min-width: 768px) {
+    .desktop-form {
+        border: 1px solid #6c757d42;
+        border-radius: 5px;
+    }
+    #loginForm {
+        margin: 29px 11px 3px 11px;
+    }
+}

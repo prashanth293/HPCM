@@ -1,0 +1,7 @@
+/*allow mobx decorators*/
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "allowJs": true
+    }
+}

@@ -1,0 +1,18 @@
+{   
+    "reset":"",
+    "emptyEmailField": "Please enter email",
+    "emptyPswdField": "Please enter password",
+    "invalidAuth": "Email or Password is Incorrect!",
+    "invalidEmail": "Email should be publicis email id",
+    "invalidPswd": "Invalid password format",
+    "nominated": "Selected person is already Nominated",
+    "selfNominated": "You are already Nominated",
+    "forgotPswdSuccess":"A link to reset your password has been sent to your email",
+    "resetPswdError": "Email id doesn't exist",
+    "sortErrorMsg":"Please select to Sort",
+    "uploadFile":"Please choose file to upload",
+    "formateFile":"File format should be pdf, msg, xml, doc or docx",
+    "confirmPswdEmpty": "Enter your password again",
+    "confirmPswdError": "Password didn't match"
+}
+ 

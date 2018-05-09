@@ -1,0 +1,68 @@
+.app-logo {
+    height: 60px;
+    margin: 80px 30px 30px 0;
+    width: 200px;
+}
+
+.bottom-links a,
+.top-links a {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-margin {
+    margin-top: 200px;
+}
+
+.sidenav {
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    padding: 20px 0 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.sidenav * {
+    padding: 4px 8px 4px 32px;
+}
+
+.example-enter {
+    opacity: 0.01;
+    width: 0px;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: 500ms;
+    width: 100%;
+}
+
+.example-leave {
+    opacity: 1;
+    width: 100%;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: 500ms;
+    width: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .sidenav {
+        width: 300px;
+    }
+    .example-enter {
+        width: 0px;
+    }
+    .example-enter.example-enter-active {
+        width: 300px;
+    }
+    .example-leave {
+        width: 300px;
+    }
+}

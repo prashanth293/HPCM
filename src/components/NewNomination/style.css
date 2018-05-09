@@ -1,0 +1,111 @@
+.submit-button {
+    letter-spacing: 1.6px;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.new-nominee-link {
+    padding: 0 0 0 5px;
+    font-size: 18px;
+}
+
+.section-margin {
+    margin-top: 100px;
+}
+
+.panel-layout {
+    display: flex;
+}
+
+.panel-header {
+    font-size: 18px;
+}
+
+.hide {
+    display: none;
+    margin-top: 5px;
+}
+
+.searchbar-margin {
+    margin-top: 30px;
+}
+
+.fileErrorMsg {
+    height: 40px;
+}
+
+.errorMsg {
+    height: 16px;
+}
+
+.link {
+    display: inline-flex;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.tabletop-margin {
+    margin-top: 30px;
+}
+
+.attach-label {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.attach-icon {
+    transform: rotate(-45deg);
+}
+
+.attach {
+    width: 140px;
+}
+
+.new-nomination-error {
+    height: 10px;
+}
+
+.selectpicker {
+    padding: 5px 5px 5px 5px;
+    width: 180px;
+}
+
+#my-progress {
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#my-bar {
+    width: 0;
+    height: 10px;
+    transition: width 1s;
+}
+
+.file-upload-error {
+    margin-bottom: 10px
+}
+
+.upload-file {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: none;
+    border: none;
+    width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .hide {
+        display: block;
+    }
+    .selectpicker {
+        width: 250px;
+    }
+    .upload-file {
+        width: 200px;
+    }
+}

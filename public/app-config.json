@@ -1,0 +1,10 @@
+{
+    "validUploadFormat": ["pdf", "msg", "xml", "doc", "docx"],
+    "passwordRegex":"((?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,})" ,
+    "emailRegex":"^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@publicisgroupe\\.net$",
+    "mailingList": [
+        "karna12@publicisgroupe.net","arckumar2@publicisgroupe.net","soumishr@publicisgroupe.net",
+        "somreddy@publicisgroupe.net","amiraush@publicisgroupe.net","bhishma66@publicisgroupe.net",
+        "emireddy89@publicisgroupe.net","abhiram77@publicisgroupe.net","bangaram65@publicisgroupe.net"    
+    ]
+}

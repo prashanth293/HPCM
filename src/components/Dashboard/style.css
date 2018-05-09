@@ -1,0 +1,16 @@
+.header-margin {
+    margin-top: 100px;
+}
+
+.row-margin {
+    margin-top: 20px;
+}
+
+.fixed-bottom {
+    margin-bottom: 30px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
